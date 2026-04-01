@@ -130,4 +130,4 @@ This project was developed as part of exploring AI applications in development a
 
 ## Live Demo
 
-(Add your deployed Streamlit link here)
+(https://graphly-ai-eydjkj2qrwmpmwaueztx8k.streamlit.app/)
