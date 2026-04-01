@@ -55,7 +55,7 @@ def generate_answer(context, query):
         Question:
         {query}
         """
-    client = Groq(api_key="Your Groq API Key")
+    client = Groq(api_key=st.secrets["GROQ_API_KEY"])
     response = client.chat.completions.create(
         model="llama-3.1-8b-instant",
         messages=[{"role": "user", "content": prompt}]
